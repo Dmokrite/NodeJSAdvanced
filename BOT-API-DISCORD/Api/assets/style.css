@@ -1,0 +1,18 @@
+main {
+    text-align: center;
+}
+
+main > form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+#errors {
+    color: chartreuse;
+}
+
+button {
+    margin-top: 2em;
+}

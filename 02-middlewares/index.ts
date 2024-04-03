@@ -1,6 +1,6 @@
 import express, { Router } from 'express';
-import { loggerMiddleware } from './middlewares/logger.middleware';
-import { authorizeMiddleWare } from './middlewares/authorize.middleware';
+import { loggerMiddleware } from './Middlewares/logger.middleware';
+import { authorizeMiddleWare } from './Middlewares/authorize.middleware';
 
 const application = express();
 
